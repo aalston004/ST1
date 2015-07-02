@@ -42,7 +42,7 @@
         <section id="left-sidebar">
 
             <div class="logo">
-                <a href="#intro" class="link-scroll"><img src="~/Content/Template/images/other_images/logo.png" alt="Twilli Air"></a>
+                <a href="#intro" class="link-scroll"><img src="~/Content/Template/images/other_images/logo.png" alt="Skio Theory"></a>
             </div><!-- .logo -->
             <!-- Menu Icon for smaller viewports -->
             <div id="mobile-menu-icon" class="visible-xs" onclick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
@@ -62,8 +62,8 @@
                 <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
                     <div class="col-sm-10 col-md-9 pull-right">
                         <section class="feature-text">
-                            <h1>Say more with less with TWILLI Air</h1>
-                            <p>TWILLI Air is a fully-responsive, minimalistic HTML template, designed to be ideal for websites with concise content.</p>
+                            <h1>Say more with less with Skio Theory</h1>
+                            <p>Skio Theory is a fully-responsive, minimalistic HTML template, designed to be ideal for websites with concise content.</p>
                             <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">find out more</a></p>
                         </section>
                     </div><!-- .col-sm-10 -->
@@ -362,6 +362,7 @@
                         <p><a href="mailto:info@loremipsum.com">info@loremipsum.com</a></p>
                     </div>
                     <!-- END: CONTACT DETAILS -->
+
                     <!-- CONTACT FORM -->
                     <div class="col-sm-7 col-md-9">
                         <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
@@ -396,6 +397,7 @@
                             </div><!-- end: form right col -->
                         </form>
                     </div><!-- end: CONTACT FORM -->
+
                 </div><!-- .content-wrapper -->
             </article><!-- .section-wrapper -->            
             @RenderBody()
@@ -458,6 +460,9 @@
     <!--[if lt IE 9]>
     <script>contact_form_IE9_placeholder_fix();</script>
     <![endif]-->
+
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
 
     @RenderSection("scripts", required: false)
 
